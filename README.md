@@ -1,5 +1,7 @@
 # babel-plugin-conditional
 
+[![Build Status](https://travis-ci.org/codemix/babel-plugin-conditional.svg?branch=master)](https://travis-ci.org/codemix/babel-plugin-conditional)
+
 Conditionally applies a set of babel plugins based on the result of an expression evaluated at runtime.
 
 # What?
