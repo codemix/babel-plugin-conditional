@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-conditional",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Conditionally applies a set of babel plugins based on the result of an expression evaluated at runtime.",
   "main": "babel-plugin-conditional.js",
   "scripts": {
