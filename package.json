@@ -1,0 +1,39 @@
+{
+  "name": "babel-plugin-conditional",
+  "version": "0.0.0",
+  "description": "Conditionally applies a set of babel plugins based on the result of an expression evaluated at runtime.",
+  "main": "babel-plugin-conditional.js",
+  "scripts": {
+    "build": "babel -d lib src",
+    "test": "mocha"
+  },
+  "repository": {
+    "url": "https://github.com/codemix/babel-plugin-conditional",
+    "type": "git"
+  },
+  "author": "Charles Pick <charles@codemix.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-flow-runtime": "^0.7.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "eslint": "^3.17.0",
+    "eslint-plugin-babel": "^4.1.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "flow-bin": "^0.40.0",
+    "flow-typed": "^2.0.0",
+    "mocha": "^3.2.0",
+    "prettier": "^0.21.0"
+  },
+  "dependencies": {
+    "flow-runtime": "^0.7.0"
+  }
+}

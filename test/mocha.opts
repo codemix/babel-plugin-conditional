@@ -1,0 +1,3 @@
+--reporter=dot
+--require babel-polyfill
+--require ./test-polyfill.js

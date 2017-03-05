@@ -1,0 +1,19 @@
+import t from "flow-runtime";
+export * from "path";
+
+if (process.env.TEST_CONDITION) {
+
+  function id(input) {
+    let _inputType = t.any();
+
+    const _returnType = t.return(t.any());
+
+    t.param("input", _inputType).assert(input);
+
+    return _returnType.assert(input);
+  } /* @flow */
+} else {
+  function id(input) {
+    return input;
+  }
+}
